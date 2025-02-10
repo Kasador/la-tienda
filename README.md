@@ -88,6 +88,10 @@ Logo.propTypes = { // works like TypeScript
 export default Logo
 ```
 
+### Feat: Huge UI/UX update // added React Routers
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/fc1e2eb5-64a6-4874-91b6-5b5852c5094b" />
+
 # 📊 Milestones (In English)
 
 ### 📌 Milestone #1: **Project Planning & Design** 

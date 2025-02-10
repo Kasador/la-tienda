@@ -2,10 +2,9 @@
 @forward '../../styles/typography';
 
 nav {
-    background-color: $color-red;
+    background-color: $color-black;
     color: $color-white;
     padding: 1rem;
-    text-align: center;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -15,4 +14,41 @@ nav {
     z-index: 100;
     margin-top: 110px;
     padding: 20px;
+
+    a {
+        color: $color-white;
+        text-decoration: none;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 190px;
+        padding-left: 25px;
+
+        transition: all 0.2s;
+    }
+    a.active {
+        color: $color-red;
+        background-color: $color-white;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: $font-size-medium;
+    }
+    a:hover {
+        cursor: pointer;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+
+        li {
+            font-size: $font-size-regular;
+            padding: 10px;
+            // z-index: 1;
+        }
+        li:hover {
+            cursor: pointer;
+        }
+    }
 }

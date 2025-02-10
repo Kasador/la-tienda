@@ -4,7 +4,7 @@
 
 Este repositorio contiene el código fuente para el desarrollo de mi aplicación de web para un sistema de punto de venta diseñado para pequeñas tiendas en Perú, construido utilizando _**npm create vite@latest**_. La nueva tecnología utilizada está diseñada para la simplicidad, el rendimiento y la facilidad de gestión de contenido para el desarrollo y mantenimiento futuro.
 
-### 🚧 [Servidor de Desarrollo](https://la-choza-pdv.netlify.app/)
+### [![Netlify Status](https://api.netlify.com/api/v1/badges/b4ca35f8-4c9e-428a-a262-5e7bf554b6f9/deploy-status)](https://app.netlify.com/sites/la-choza-pdv/deploys) [Dev Server](https://en-es-dictionary.netlify.app/)
 
 ## 🛠️ **Resumen de la Tecnología Utilizada**  
 [![Mis Habilidades](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)

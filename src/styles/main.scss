@@ -4,6 +4,10 @@
 @use "./typography";
 @use "./buttons";
 
+html {
+    width: 100%;
+}
 body {
     background-color: variables.$color-gray;
+    width: 100%;
 }

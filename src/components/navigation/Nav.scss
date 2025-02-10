@@ -1,0 +1,18 @@
+@use "../../styles/variables" as *; 
+@forward '../../styles/typography';
+
+nav {
+    background-color: $color-red;
+    color: $color-white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    border-bottom-right-radius: 85%;
+    z-index: 100;
+    margin-top: 110px;
+    padding: 20px;
+}

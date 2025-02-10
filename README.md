@@ -58,11 +58,13 @@ Este repositorio contiene el código fuente para el desarrollo de mi aplicación
 
 	- @vitejs/plugin-react-swc utiliza SWC para Fast Refresh.
 
-# 📈 📸 Progreso/Capturas de Pantalla
+# 🛠️ 🐛 Progreso/Bugs
 
-# 🛠️ 🐛 Problemas/Errores
+### Feat: Connected SCSS files correctly w/ @use & @forward, not @import
 
-# 📊 Milestones - English for Development >>> 
+<img width="283" alt="Image" src="https://github.com/user-attachments/assets/168f8f89-d03e-4cdc-86e3-10c4f684c57c" />
+
+# 📊 Milestones (In English)
 
 ### 📌 Milestone #1: **Project Planning & Design** 
 - [x] Decide on the **topic and theme** for the project

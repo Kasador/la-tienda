@@ -1,0 +1,11 @@
+@use "./index";
+
+@forward "./variables";
+@forward "./mixins";
+@forward "./global";
+@forward "./typography";
+@forward "./buttons";
+
+body {
+    background-color: variables.$white;
+}

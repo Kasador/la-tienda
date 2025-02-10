@@ -1,13 +1,13 @@
 // Color Scheme >>>
-$timberwolf: #D1D1D1;
-$platinum: #DBDBDB;
-$light-sky-blue: #85C7F2;
-$dim-gray: #636363;
-$davys-gray: #4C4C4C;
+$red: #DE8C8C;        // red
+$black: #3B4C55;      // black
+$yellow: #DADA93;     // yellow
+$white: #F6F6F6;      // dirty white
+$gray: #F2F3F4;       // light gray
 
 body {
-  background-color: $light-sky-blue;
+  background-color: $gray;
 }
 h1 {
-  color: $davys-gray;
+  color: $black;
 }

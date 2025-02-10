@@ -1,11 +1,9 @@
-@use "./index";
-
-@forward "./variables";
-@forward "./mixins";
-@forward "./global";
-@forward "./typography";
-@forward "./buttons";
+@use "./variables";
+@use "./mixins";
+@use "./global";
+@use "./typography";
+@use "./buttons";
 
 body {
-    background-color: variables.$white;
+    background-color: variables.$color-gray;
 }

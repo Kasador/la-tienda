@@ -64,6 +64,30 @@ Este repositorio contiene el código fuente para el desarrollo de mi aplicación
 
 <img width="283" alt="Image" src="https://github.com/user-attachments/assets/168f8f89-d03e-4cdc-86e3-10c4f684c57c" />
 
+### Feat: Installed **_npm install prop-types_** to import prop-types to fix warning message
+REF: https://www.npmjs.com/package/prop-types
+
+```jsx
+import './Logo.scss'
+import LogoImg from '../../assets/images/logo.png';
+import PropTypes from 'prop-types'; // import prop-types to fix warning message
+
+function Logo(props) {
+  return (
+    <section>
+        <img src={LogoImg} alt='Logo de La Choza' />
+        <h1 className='logo-font'>{props.logoHeader}</h1>
+    </section>
+  )
+}
+
+Logo.propTypes = { // works like TypeScript
+    logoHeader: PropTypes.string.isRequired
+};
+
+export default Logo
+```
+
 # 📊 Milestones (In English)
 
 ### 📌 Milestone #1: **Project Planning & Design** 

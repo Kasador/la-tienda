@@ -1,77 +1,68 @@
-# 🗂 Overview to English to Spanish Dictionary Application
+# 🗂 Sistema de Punto de Venta
 
-  
+## 🦙 🇵🇪 **La Tienda - Para Perú**
 
-## 🖥️ **English to Spanish Dictionary**
+Este repositorio contiene el código fuente para el desarrollo de mi aplicación web para un sistema de punto de venta diseñado para pequeñas tiendas en Perú, construido utilizando _**npm create vite@latest**_. La nueva tecnología utilizada está diseñada para la simplicidad, el rendimiento y la facilidad de gestión de contenido para el desarrollo y mantenimiento futuro.
 
-  
+### 🚧 [Servidor de Desarrollo](https://en-es-dictionary.netlify.app/)
 
-This repository contains the source code for the development of my web application for a English to Spanish dictionary, built using _**npm create vite@latest**_. The new tech stack is designed for simplicity, performance, and ease of content management for future development and maintenance.
-
-  
-### 🚧 [Development Server](https://en-es-dictionary.netlify.app/)
-
-## 🛠️ **Tech Stack Overview** 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
-
-  
+## 🛠️ **Resumen de la Tecnología Utilizada**  
+[![Mis Habilidades](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 
 ### 📘 **Frontend**
 
--  **ReactJS**: For building a dynamic, responsive, and component-based UI.
+- **ReactJS**: Para construir una interfaz de usuario dinámica, receptiva y basada en componentes.
 
--  **SASS**: For styling with ease for CSS classes, maintaining a consistent and clean design for UI/UX.
+- **SASS**: Para estilizar con facilidad las clases de CSS, manteniendo un diseño limpio y consistente para UI/UX.
 
-  
+### 📖 **Backend y Gestión de Recursos**
 
-### 📖 **Backend & Asset Management**
+- **NodeJS/Express & MongoDB/localStorage**: Para almacenar imágenes, direcciones de correo electrónico y otros datos críticos como registros estructurados.
 
--  **NodeJS/Express & MongoDB/localStorage**: Storing images, email addresses, and other critical data as structured records.
-  
-
-## ❓ **Why This Tech Stack? (MERN)**
-
+## ❓ **¿Por qué esta tecnología? (MERN)**
 
 ### **1. ReactJS & SASS/SCSS**
 
-- Ensures modular and reusable code components for easy future updates.
+- Asegura la modularidad y la reutilización de componentes de código para facilitar futuras actualizaciones.
 
-- SASS/SCSS integrates seamlessly into React components, allowing consistent design & UI/UX.
+- SASS/SCSS se integra perfectamente en los componentes de React, permitiendo un diseño y UI/UX consistente.
 
-- This is better for larger projects that have a lot of styles and makes sure they will be consistent. This also allows for better control instead of using styled-components where it might be overwritten or would not load correctly when components change.
-
+- Es mejor para proyectos más grandes con muchos estilos, asegurando coherencia y un mejor control en comparación con `styled-components`, que puede ser sobrescrito o no cargarse correctamente cuando los componentes cambian.
 
 ### **2. NodeJS/Express & MongoDB/localStorage**
 
-- Allows for storing data and info in a JSON type format.
+- Permite almacenar datos en formato JSON.
 
-- Ensures fast and reliable data retrieval and caches data once visited for the first time.
+- Garantiza una recuperación de datos rápida y confiable, almacenando en caché la información una vez visitada por primera vez.
 
- 
+---
 
-# 🗂 Overview to Project Setup
+# 🗂 Configuración del Proyecto  
 
-  
+### **Requisitos Previos**
 
-### **Prerequisites**
+- Tener instalado Node.js y npm.
 
-- Node.js and npm installed.
+- Crear una aplicación de React _con_ Vite.
 
-- Create a React App _with_ Vite.
+- Seguir este artículo de [freecodecamp.org](https://www.freecodecamp.org/news/how-to-create-a-react-app-in-2024/#:~:text=Create%20React%20App%20has%20been,new%20React%20project%20in%202024.).
 
-- Using this article, [freecodecamp.org](https://www.freecodecamp.org/news/how-to-create-a-react-app-in-2024/#:~:text=Create%20React%20App%20has%20been,new%20React%20project%20in%202024.).
-
-- _**npm create vite@latest**_
+- Ejecutar el comando:  
+  ```sh
+  npm create vite@latest
 
 ### React + Vite
-  
-Currently, two official plugins are available:
+- Actualmente, hay dos complementos oficiales disponibles:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+	- @vitejs/plugin-react utiliza Babel para Fast Refresh.
 
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+	- @vitejs/plugin-react-swc utiliza SWC para Fast Refresh.
 
-# 📊 Milestones
+# 📈 📸 Progreso/Capturas de Pantalla
+
+# 🛠️ 🐛 Problemas/Errores
+
+# 📊 Milestones - English for Development >>> 
 
 ### 📌 Milestone #1: **Project Planning & Design** 
 - [x] Decide on the **topic and theme** for the project
@@ -100,8 +91,4 @@ Currently, two official plugins are available:
 - [ ] Working application
 - [ ] Ready for **Production**
 
-
-### 🛠️ 🐛 **Issues/Bugs**
-
-### 📈 📸 **Progress/Screenshots**
 

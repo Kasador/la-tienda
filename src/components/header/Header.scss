@@ -2,10 +2,13 @@
 @forward '../../styles/typography';
 
 header {
-    background-color: $color-red;
+    background-color: $color-black;
     color: $color-white;
-    padding: 1rem;
+    padding: 20px;
     text-align: center;
     display: flex;
-    height: 80px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }

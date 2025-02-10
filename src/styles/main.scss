@@ -4,6 +4,17 @@
 @use "./typography";
 @use "./buttons";
 
+html {
+    width: 100%;
+}
 body {
+    background-color: variables.$color-red;
+    width: 100%;
+}
+.Pages {
+    margin-left: 240px;
     background-color: variables.$color-gray;
+    height: 83vh;
+    padding-top: 110px;
+    border-bottom-left-radius: 30%;
 }

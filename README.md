@@ -1,8 +1,8 @@
-# 🗂 Sistema de Punto de Venta
+# 🗂 Sistema de Punto de Venta (PDV)
 
-## 🦙 🇵🇪 **La Tienda - Para Perú**
+## 🦙 🇵🇪 **La Choza - Para Perú**
 
-Este repositorio contiene el código fuente para el desarrollo de mi aplicación web para un sistema de punto de venta diseñado para pequeñas tiendas en Perú, construido utilizando _**npm create vite@latest**_. La nueva tecnología utilizada está diseñada para la simplicidad, el rendimiento y la facilidad de gestión de contenido para el desarrollo y mantenimiento futuro.
+Este repositorio contiene el código fuente para el desarrollo de mi aplicación de web para un sistema de punto de venta diseñado para pequeñas tiendas en Perú, construido utilizando _**npm create vite@latest**_. La nueva tecnología utilizada está diseñada para la simplicidad, el rendimiento y la facilidad de gestión de contenido para el desarrollo y mantenimiento futuro.
 
 ### 🚧 [Servidor de Desarrollo](https://punto-de-venta.netlify.app/)
 

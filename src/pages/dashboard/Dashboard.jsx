@@ -33,7 +33,7 @@ ChartJS.register(ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Le
 const barData = {
   labels: ['Lunes', 'Martes', 'Miercules', 'Jueves', 'Viernes', 'Sabado', 'Domingo'],
   datasets: [{
-    label: 'My First Dataset',
+    label: 'Ganancias de Semana',
     data: [65, 59, 80, 81, 56, 55, 40],
     backgroundColor: [
       'rgba(255, 99, 132, 0.2)',

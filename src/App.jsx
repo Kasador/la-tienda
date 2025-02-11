@@ -8,6 +8,8 @@ import Products from './pages/Products'
 import Reports from './pages/Reports'
 import Users from './pages/Users'
 import Settings from './pages/Settings'
+import Footer from './components/footer/Footer'
+import NavBot from './components/navigation/NavBot'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +19,8 @@ function App() {
       <div>
         <Header />
         <Nav />
+        <NavBot />
+        <Footer />
         <main className='Pages'>
           <Routes>
             <Route path="/" element={<Dashboard />} />

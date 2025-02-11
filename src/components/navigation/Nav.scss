@@ -52,3 +52,22 @@ nav {
         }
     }
 }
+.Settings {
+    color: $color-white;
+    font-size: $font-size-large;
+    transition: all 0.2s;
+    position: fixed;
+    bottom: 15px;
+    left: 5px;
+    margin: 10px;
+    z-index: 101;
+}
+.Settings.active {
+    color: $color-red;
+    background-color: $color-white;
+    border-radius: 100%;
+    padding: 2px;
+    padding-top: 7px;
+    padding-right: 6px;
+    padding-left: 6px;
+}

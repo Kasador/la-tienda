@@ -7,8 +7,20 @@ header {
     padding: 20px;
     text-align: center;
     display: flex;
+    justify-content: space-between;
     height: 70px;
     width: 100%;
     position: fixed;
     z-index: 100;
+}
+.UserProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+    span {
+        padding-right: 10px;
+        font-size: $font-size-medium;
+    }
 }

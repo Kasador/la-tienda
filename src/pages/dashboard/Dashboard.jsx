@@ -1,35 +1,9 @@
+import './Dashboard.scss'
 import { Chart as ChartJS, ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Legend } from "chart.js";
 import { Doughnut, Bar } from "react-chartjs-2";
 
 ChartJS.register(ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
-// const data = {
-//     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-//     datasets: [{
-//         label: '# of Votes',
-//         data: [12, 19, 3, 5, 2, 3],
-//         borderWidth: 1
-//     }]
-// }
-// new ChartJS(Doughnut, {
-//     type: 'bar',
-//     data: {
-//       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-//       datasets: [{
-//         label: '# of Votes',
-//         data: [12, 19, 3, 5, 2, 3],
-//         borderWidth: 1
-//       }]
-//     },
-//     options: {
-//       scales: {
-//         y: {
-//           beginAtZero: true
-//         }
-//       }
-//     }
-//   });
-// const labels = Utils.months({count: 7});
 const barData = {
   labels: ['Lunes', 'Martes', 'Miercules', 'Jueves', 'Viernes', 'Sabado', 'Domingo'],
   datasets: [{
@@ -84,17 +58,18 @@ const doughnutData = {
     }]
 };
 
-const styles = {
-    width: '500px',
-    display: 'flex',
-    alignItems: 'center', marginLeft: '100px', padding: '50px'}
-
 const Dashboard = () => {
     return (
-            <div style={styles}>
-                <Doughnut data={doughnutData} options={doughnutData.options}/>
-                <Bar data={barData} options={barData.options}/>
-            </div>
+            <section className='Dashboard'>
+                <div>
+                    <article className='DataWrapper'>
+                        <Doughnut data={doughnutData} options={doughnutData.options}/>
+                    </article>
+                    <article className='DataWrapper'>
+                        <Bar data={barData} options={barData.options}/>
+                    </article>
+                </div>
+            </section>
     )
 };
 

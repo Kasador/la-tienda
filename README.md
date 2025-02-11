@@ -92,6 +92,10 @@ export default Logo
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/fc1e2eb5-64a6-4874-91b6-5b5852c5094b" />
 
+### Feat: Dashboard UI updated
+
+<img width="1431" alt="Image" src="https://github.com/user-attachments/assets/76eb1814-41f9-438a-b2bd-7a91a36b3af8" />
+
 # 📊 Milestones (In English)
 
 ### 📌 Milestone #1: **Project Planning & Design** 

@@ -1,0 +1,22 @@
+@use "../../styles/variables" as *; 
+@forward '../../styles/typography';
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: $color-white;
+    right: 0;
+    padding: 20px;
+    margin-right: 50px;
+
+    a {
+        color: $color-gray;
+        text-decoration: none;
+
+        transition: all 0.2s;
+    }
+    a:hover {
+        color: $color-black;
+        cursor: pointer;
+    }
+}
